@@ -32,6 +32,17 @@ aside {
     display: none; /* Initially hidden */
 }
 
+#menu-button {
+    background-color: #555; /* Background for the button */
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px; /* Adds a small gap between the button and the title */
+    border-radius: 8px; /* Rounded corners for the button */
+}
+
 #categories {
     list-style-type: none;
     padding: 0;
