@@ -36,7 +36,6 @@ aside {
     position: absolute; /* Position the button absolutely within the header */
     left: 10px; /* Distance from the leftmost side of the header */
     top: 50%; /* Center vertically within the header */
-    transform: translateY(-50%); /* Adjust for proper vertical centering */
     background-color: #555; /* Background for the button */
     border: none;
     color: white;
