@@ -33,4 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching post:', error));
 });
-
+function toggleCategories() {
+    const categoriesContainer = document.getElementById('categories-container');
+    if (categoriesContainer.style.display === 'block') {
+        categoriesContainer.style.display = 'none';
+    } else {
+        categoriesContainer.style.display = 'block';
+    }
+}

@@ -29,6 +29,7 @@ aside {
     background-color: #444;
     padding: 20px;
     border-radius: 12px; /* Rounded corners */
+    display: none; /* Initially hidden */
 }
 
 #categories {
