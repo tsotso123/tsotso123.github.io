@@ -1,4 +1,4 @@
-/* Global Styles */
+﻿/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -27,16 +27,16 @@ header {
     margin-bottom: 20px;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
 
 nav ul {
     list-style: none;
@@ -44,20 +44,20 @@ nav ul {
     gap: 15px;
 }
 
-nav ul li {
-    margin: 0;
-}
+    nav ul li {
+        margin: 0;
+    }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s ease;
-}
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
 
-nav ul li a:hover {
-    background-color: #555;
-}
+            nav ul li a:hover {
+                background-color: #555;
+            }
 
 /* Main Content Styles */
 main {
@@ -72,21 +72,21 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.post h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
+    .post h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
-.post .meta {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 15px;
-}
+    .post .meta {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 15px;
+    }
 
-.post p {
-    font-size: 16px;
-    line-height: 1.6;
-}
+    .post p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
 
 .read-more {
     display: inline-block;
@@ -99,9 +99,9 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.read-more:hover {
-    background-color: #555;
-}
+    .read-more:hover {
+        background-color: #555;
+    }
 
 /* Footer Styles */
 footer {
@@ -112,7 +112,7 @@ footer {
     margin-top: 20px;
 }
 
-footer p {
-    margin: 0;
-    font-size: 14px;
-}
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
