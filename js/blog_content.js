@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const postId = getQueryParameter('id'); // Assume you have a query parameter for the post ID
     console.log(postId);
-    fetch(`https://webapplication120240912102918.azurewebsites.net/api/PostContentApi/${postId}`)
+    fetch(`https://serverbackend.azurewebsites.net/api/PostContentApi/${postId}`)
         .then(response => response.json())
         .then(data => {
             document.getElementById('post-title').textContent = data.title;
