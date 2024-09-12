@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const link = document.createElement('a');
                 link.className = "read-more";
                 //link.href = "https://serverbackend.azurewebsites.net/PostView?id=" + item["id"];
-				link.href = "/postView?id=" + item["id"];
+				link.href = "/postView.html?id=" + item["id"];
                 link.textContent = 'Read More';
 
                 post.appendChild(link);
