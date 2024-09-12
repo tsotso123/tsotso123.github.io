@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+	
     fetch(`https://webapplication120240912102918.azurewebsites.net/api/PostContentApi/posts`)
         .then(response => response.json())
         .then(data => {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const link = document.createElement('a');
                 link.className = "read-more";
-                link.href = "/PostView?id=" + item["id"];
+                link.href = "https://webapplication120240912102918.azurewebsites.net/PostView?id=" + item["id"];
                 link.textContent = 'Read More';
 
                 post.appendChild(link);
